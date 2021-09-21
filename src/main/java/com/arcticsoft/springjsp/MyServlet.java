@@ -14,8 +14,10 @@ public class MyServlet extends HttpServlet
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
 	{
+		resp.setContentType("text/html");
 		PrintWriter pw = resp.getWriter();
-		pw.println("HOLA DESDE MY SERVLET!");
+		pw.println("HOLA DESDE MY SERVLET! <br/>");
+		pw.println("<button onclick=\"window.location.href='/index.html';\">Inicio</button>");
 		pw.close();
 	}
 }
