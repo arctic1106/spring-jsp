@@ -1,2 +1,2 @@
 # spring-jsp
-Spring boot with MVC controller rendering jsp's and WebServlet support.
+Spring Boot app with MVC Book controller rendered with jsp's. Also enabled WebServlet support.
