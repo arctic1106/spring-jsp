@@ -3,9 +3,10 @@
 <html>
     <head>
         <title>View Books</title>
-        <link href="<c:url value="/css/estilo.css"/>" rel="stylesheet" type="text/css">
+        <link href="<c:url value='/css/estilo.css'/>" rel="stylesheet" type="text/css">
     </head>
     <body>
+	<h1>Listado de libros:</h1>
         <table>
             <thead>
                 <tr>
@@ -24,8 +25,9 @@
                 </c:forEach>
             </tbody>
         </table>
-		<br/>
-       <button onclick="window.location.href='/enterAddBook';">Añadir Libro</button>
-	   <button onclick="window.location.href='/servlet';">Mi Servlet</button>
+	<br/>
+	<button onclick="window.location.href='/enterAddBook';">Añadir Libro</button>
+	<button onclick="window.location.href='/servlet';">Mi Servlet</button>
+	<button onclick="window.location.href='/index.html';">Inicio</button>
     </body>
 </html>
