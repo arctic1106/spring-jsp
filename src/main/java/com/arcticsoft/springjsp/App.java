@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Bean;
 
 @ServletComponentScan
 @SpringBootApplication
-public class App extends SpringApplication
+public class App
 {
 	public static void main(String[] args) {
-		SpringApplication.run(App.class);
+		SpringApplication.run(App.class, args);
 	}
 
 	@Bean

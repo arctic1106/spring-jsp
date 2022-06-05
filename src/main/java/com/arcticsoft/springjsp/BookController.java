@@ -37,8 +37,7 @@ public class BookController
 	public RedirectView addBook(@ModelAttribute("book") Book book, RedirectAttributes redirectAttributes)
 	{
 		bookRepo.add(book);
-		final RedirectView redirectView = new RedirectView("/viewBooks", true);
 
-		return redirectView;
+		return new RedirectView("/viewBooks", true);
 	}
 }
