@@ -1,4 +1,5 @@
 # spring-jsp
-Spring Boot app with MVC Book controller rendered with jsp's. Also enabled WebServlet support.
+Spring Boot MVC webapp with JSP as view technology.
+Also Java/Jakarta EE Servlet API support enabled.
 
 Run with "mvn spring-boot:run"
